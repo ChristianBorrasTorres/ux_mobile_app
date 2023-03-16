@@ -1,6 +1,6 @@
 # ux_mobile_app
 
-En el repositorio se podra encontrar el codigo fuente de la aplicación Android que se conecta con el backend Vinilos.
+En el repositorio se podra encontrar el codigo fuente de la aplicación Androids.
 
 Para poder ejecutar el proyecto se necesitan realizar los siguiente pasos:
 
