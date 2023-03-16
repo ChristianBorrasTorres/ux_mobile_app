@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">AlarmApp</string>
+    <string name="login_name">Login</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_recover_password">Recuperar Contraseña</string>
+    <string name="title_register">Registrarse</string>
+    <string name="title_login">Login</string>
+    <string name="title_login_google">Login Google</string>
+    <string name="title_configuration">Configuración</string>
+    <string name="title_config_suggestions">Configuración Sugerencias</string>
+    <string name="title_nueva_alarma">Nueva Alarma</string>
+    <string name="title_sugerencias">Sugerencias</string>
+    <string-array name="hour_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="am_pm_array">
+        <item>Seleccione el medicamento</item>
+        <item>Advil</item>
+        <item>Carvedidol</item>
+        <item>Magnesio</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Seleccione el medicamento</item>
+        <item>Advil</item>
+        <item>Carvedidol</item>
+        <item>Magnesio</item>
+    </string-array>
+    <string-array name="frequency_array">
+        <item>Diaria</item>
+        <item>Semanal</item>
+        <item>Mensual</item>
+        <item>Anual</item>
+        <item>Personalizada</item>
+    </string-array>
+    <string-array name="sound_array">
+        <item>sonido.mp3</item>
+        <item>aves.mp3</item>
+        <item>musica.mp3</item>
+        <item>dance.mp3</item>
+        <item>ringtone.mp3</item>
+    </string-array>
+    <string name="suggestion1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec pulvinar augue. Nulla ac risus at magna porttitor rutrum. Duis a enim egestas, pellentesque neque ut, lobortis ex. Duis ullamcorper est erat, ac vulputate neque elementum in.</string>
+    <string name="suggestion2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec pulvinar augue. Nulla ac risus at magna porttitor rutrum. Duis a enim egestas, pellentesque neque ut, lobortis ex. Duis ullamcorper est erat, ac vulputate neque elementum in.</string>
+    <string name="no_suggestions">No tienes ninguna sugerencia...</string>
+    <string name="text_forgot_password"><u>Olvidaste la contraseña?</u></string>
+    <string name="text_register"><u>Registrarse</u></string>
+    <string name="text_recover_password">A tu email seria enviado un codigo para poder realizar el proceso de recuperación de contraseña</string>
+    <string name="title_deliver">title_deliver</string>
+
+
+</resources>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.configSuggestions.ConfigSuggestionsFragment">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DROGUERIAS"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/cerca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerca de ti"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/switch_alarm1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/cerca2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="120dp"
+        android:text="Dirección"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <TextView
+        android:id="@+id/cerca8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Dirección"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_dos"
+        app:layout_constraintTop_toBottomOf="@+id/cerca7" />
+
+    <TextView
+        android:id="@+id/cerca15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="76dp"
+        android:text="Dirección"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca14" />
+
+    <TextView
+        android:id="@+id/cerca3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
+        android:text="Carrera 25 #8"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca2" />
+
+    <TextView
+        android:id="@+id/cerca9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
+        android:text="Carrera 25 #9"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_dos"
+        app:layout_constraintTop_toBottomOf="@+id/cerca8" />
+
+    <TextView
+        android:id="@+id/cerca16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Carrera 25 #8"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca15" />
+
+    <TextView
+        android:id="@+id/cerca4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Unidades"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca6" />
+
+    <TextView
+        android:id="@+id/cerca12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Unidades"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca18" />
+
+    <TextView
+        android:id="@+id/cerca19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Unidades"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_dos"
+        app:layout_constraintTop_toBottomOf="@+id/cerca11" />
+
+    <TextView
+        android:id="@+id/cerca7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="100"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca4" />
+
+    <TextView
+        android:id="@+id/cerca14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="99"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_dos"
+        app:layout_constraintTop_toBottomOf="@+id/cerca19" />
+
+    <TextView
+        android:id="@+id/cerca20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="98"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca12" />
+
+    <TextView
+        android:id="@+id/cerca6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="20"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca5" />
+
+    <TextView
+        android:id="@+id/cerca11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="19"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_dos"
+        app:layout_constraintTop_toBottomOf="@+id/cerca10" />
+
+    <TextView
+        android:id="@+id/cerca18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="18"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca17" />
+
+    <TextView
+        android:id="@+id/cerca5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Precio"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca3" />
+
+    <TextView
+        android:id="@+id/cerca10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Precio"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_dos"
+        app:layout_constraintTop_toBottomOf="@+id/cerca9" />
+
+    <TextView
+        android:id="@+id/cerca17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Precio"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/drogueria_uno"
+        app:layout_constraintTop_toBottomOf="@+id/cerca16" />
+
+    <TextView
+        android:id="@+id/costo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por costo"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/switch_alarm3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_alarm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="316dp"
+        android:checked="true"
+        android:switchMinWidth="56dp"
+        android:text=""
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_alarm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="244dp"
+        android:switchMinWidth="56dp"
+        android:text=""
+        android:textColorHighlight="#FFCD1A"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <ImageView
+        android:id="@+id/drogueria_uno"
+        android:layout_width="128dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/drogueria_uno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch_alarm1" />
+
+    <ImageView
+        android:id="@+id/drogueria_dos"
+        android:layout_width="128dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/drogueria_dos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drogueria_uno" />
+
+    <ImageView
+        android:id="@+id/drogueria_tres"
+        android:layout_width="128dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/drogueria_tres"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drogueria_dos"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="231dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/switch_alarm3"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
